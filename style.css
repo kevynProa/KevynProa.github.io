@@ -1,0 +1,181 @@
+body{
+    background-color: #993399;
+    background: url(img/nuvens.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.button{
+    background-color: #993399;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ease-in-out;
+}
+.button:hover{
+    background-color: #dda0dd ;
+    transition: 0.1s ease-in;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 15px;
+    height: 50%;
+    width: 20%;
+}
+.title{
+    color: #fff;
+}
+.paragrafh{
+    color: #fff;
+}
+.name{
+    color:#fff;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.header1{
+  background-color: #1e1e1e;
+  padding: 8px;
+}
+.menu{
+  color: #fff;
+ 
+}
+.container_1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.links a{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 200px;
+    left: -300px;
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .container {
+    position: relative;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 50%;
+    width: 38%;
+
+    }
+    body{
+        background: url(img/nuvens.jpg) no-repeat;
+        background-size: 100%;
+        background-position: 0px 0px 0px 0px;
+    }
+    .button{
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: #993399;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+    .title{
+        color: #fff;
+        font-size: 20px;
+    }
+    .paragrafh{
+        color: #fff;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .container {
+    position: relative;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 50%;
+    width: 26%;
+
+    }
+    body{
+        background: url(img/nuvens.jpg) no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .button{
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: #993399;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+    .title{
+        color: #fff;
+        font-size: 30px;
+    }
+    .paragrafh{
+        color: #fff;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 900px) {
+    .container {
+    position: relative;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 50%;
+    width: 38%;
+
+    }
+    body{
+        background: url(img/nuvens.jpg) no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .button{
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: #993399;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+    .title{
+        color: #fff;
+        font-size: 30px;
+    }
+    .paragrafh{
+        color: #fff;
+        font-size: 18px;
+    }
+}
